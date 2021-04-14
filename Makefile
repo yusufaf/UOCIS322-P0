@@ -12,6 +12,6 @@ install:
 	# see credentials-skel.ini for more information 
 
 run:
-	(cd hello; python3 hello.py)
+	(mv credentials.ini hello/; cd hello; python3 hello.py)
 
 
